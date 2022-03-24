@@ -1,0 +1,9 @@
+version: '1.17'
+  
+project: atmartorana/mayhem-cmake-example
+target: mayhem-cmake-example
+
+baseimage: ghcr.io/atmartorana/mayhem-cmake-example:mayhem
+
+cmds:
+  - cmd: /fuzzme
